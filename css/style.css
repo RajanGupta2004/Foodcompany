@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
+}
+
+
+.nav-link:hover{
+  color: brown;
+  font-size: 18px;
+
+
+}
+
+
+.banner-heading {
+  padding: 16rem 0rem 5rem;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5rem 0rem 4rem;
+}
+
+.about-bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5rem;
+}
+
+.exp-section{
+  margin-top: 4rem;
+}
+
+/* .review-one{
+margin: 4rem;
+} */
+
+/* .carousel-item{
+  padding:50px 200px ;
+} */
+
+.testimonial-section{
+  background-color: brown;
+}
+
+.carousel-item{
+  margin-top: 3rem;
+  padding: 10rem 3.256rem;
+  background-color: rgb(191, 158, 158);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel-item.carousel-item img{
+  max-width: 5rem;
+  border-radius: 50%;
+
+}
+
+.carousel-item.carousel-item p,h2{
+  color: black;
+  font-size: 23px;
+
+}
+
+@media (max-width: 880px) {
+  .carousel-item{
+    padding: 14.321rem 3.256rem;
+  }
+}
+
+
+.faq{
+  margin-bottom: 4rem;
+}
+
+
+.faq-que{
+  background-color: brown;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  min-width: 250px;
+}
+
+.faq-title{
+  align-items: center;
+  padding: 4rem;
+}
+
+.faq-title h1{
+  font-size: 30px;
+  color:rgb(19, 17, 17);
+}
+
+.faq-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myoffer{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.myoffer h2{
+  font-size: 30px;
+
+}
+
+.myoffer p{
+  font-size: 20px;
+
+}
+.myoffer input{
+  height: 35px;
+  width: 290px;
+  margin: 10px;
+
+}
+
+
+
+.footer{
+  background-color: brown;
+}
+
+.footer-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item li{
+  list-style-type: none;
+  margin: 15px;
+  margin-left: 13px;
+}
+
+.footer-item li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+  
+}
+
+.brand-icon i{
+  padding: 0px 10px;
+  font-size: 23px;
+  color: white;
+}
